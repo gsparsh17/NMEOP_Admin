@@ -210,7 +210,7 @@ export default function App() {
           )}
 
           <main className={`flex-1 transition-all duration-300 max-w-7xl mx-auto pb-16 lg:pb-0`}>
-            <div className="p-4 sm:p-6 bg-gradient-to-b from-gray-50 to-gray-100 min-h-[calc(100vh-300px)]">
+            <div className="p-4 sm:p-6 bg-gray-50 min-h-[calc(100vh-300px)]">
               {/* Admin Content Header Card */}
               <div className="bg-white rounded-xl shadow-lg border border-gray-200 mb-6 overflow-hidden">
                 <div className="bg-gradient-to-r from-[#003366] via-[#0072bc] to-[#1e5c2a] text-white p-4">
@@ -246,7 +246,7 @@ export default function App() {
               </div>
 
               {/* Routes Content */}
-              <div className="bg-white rounded-xl shadow-md border border-gray-200 overflow-hidden">
+              <div className="rounded-xl overflow-hidden">
                 <Routes>
                   <Route path="/" element={<Dashboard />} />
                   <Route path="/prices" element={<PriceDataManager />} />
