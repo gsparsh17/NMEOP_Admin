@@ -15,7 +15,8 @@ import {
   Users,
   Bell,
   Cloud,
-  Lock
+  Lock,
+  IndianRupee
 } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
@@ -30,7 +31,7 @@ export default function AdminSidebar({ isOpen }) {
     },
     {
       title: "Price Data",
-      icon: <DollarSign size={20} />,
+      icon: <IndianRupee size={20} />,
       path: "/prices",
       badge: "3 new",
       badgeColor: "bg-green-500",
